@@ -1,6 +1,7 @@
 #ifndef Method_H	
 #define Method_H
-
+#include <iostream> 
+using namespace std;
 
 class Method
 {

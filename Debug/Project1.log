@@ -1,38 +1,5 @@
 ﻿  Method.cpp
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(7,14): error C3646: name: неизвестный спецификатор переопределения
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(7,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(8,14): error C3646: type: неизвестный спецификатор переопределения
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(8,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(10,29): error C2061: синтаксическая ошибка: идентификатор "string"
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(13,13): error C3646: ret: неизвестный спецификатор переопределения
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(13,13): error C2059: синтаксическая ошибка: (
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(13,15): error C2238: непредвиденные лексемы перед ";"
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.cpp(4,18): error C2065: string: необъявленный идентификатор
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.cpp(4,25): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "n"
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.cpp(4,38): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.cpp(4,38): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.cpp(11,2): error C2065: cout: необъявленный идентификатор
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.cpp(11,37): error C2065: name: необъявленный идентификатор
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.cpp(11,45): error C2065: endl: необъявленный идентификатор
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.cpp(12,2): error C2065: cout: необъявленный идентификатор
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.cpp(12,37): error C2065: type: необъявленный идентификатор
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.cpp(12,45): error C2065: endl: необъявленный идентификатор
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.cpp(14,16): error C2039: ret: не является членом "Method"
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(4): message : см. объявление "Method"
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.cpp(14,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.cpp(14,19): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ret"
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.cpp(14,22): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.cpp(14,22): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
   Source1.cpp
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(7,14): error C3646: name: неизвестный спецификатор переопределения
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(7,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(8,14): error C3646: type: неизвестный спецификатор переопределения
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(8,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(10,29): error C2061: синтаксическая ошибка: идентификатор "string"
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(13,13): error C3646: ret: неизвестный спецификатор переопределения
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(13,13): error C2059: синтаксическая ошибка: (
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(13,15): error C2238: непредвиденные лексемы перед ";"
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Source1.cpp(21,30): error C2661: Method::Method: нет перегруженной функции, принимающей 2 аргументов
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Source1.cpp(33,6): error C2039: ret: не является членом "Method"
-C:\Users\anton\OneDrive\Документы\GitHub\LR_1\Method.h(4): message : см. объявление "Method"
   Создание кода...
+  LINK : не найден или не выполнена сборка C:\DATA\GitHub\LR_1\Debug\Project1.exe при последней инкрементной компоновке; выполняется полная компоновка
+  Project1.vcxproj -> C:\DATA\GitHub\LR_1\Debug\Project1.exe
