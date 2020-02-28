@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include <windows.h>
 #include "Method.h"
@@ -9,23 +9,23 @@ int main(int argc, const char* argv[]) {
 	string n2, t2;
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-	cout << "Ââîä ÷èñëà îáúåêòîâ: " << endl;;
+	cout << "Ð’Ð²Ð¾Ð´ Ñ‡Ð¸ÑÐ»Ð° Ð¾Ð±ÑŠÐµÐºÑ‚Ð¾Ð²: " << endl;;
 	cin >> m;
 	Method** arr = new Method * [m];
 	for (int i = 0; i < m; i++) {
-		cout << "Ìåòîä " << i + 1 << ":" << endl;
-		cout << "Èìÿ:";
+		cout << "ÐœÐµÑ‚Ð¾Ð´ " << i + 1 << ":" << endl;
+		cout << "Ð˜Ð¼Ñ:";
 		cin >> n2;
-		cout << "Òèï:";
+		cout << "Ð¢Ð¸Ð¿:";
 		cin >> t2; cout << endl;
 		arr[i] = new Method(n2, t2);
 	}
 	for (int i = 0; i < m; i++) {
-		cout << "Ìåòîä " << i + 1 << ":" << endl;
+		cout << "ÐœÐµÑ‚Ð¾Ð´ " << i + 1 << ":" << endl;
 		arr[i]->print();
 	}
 	cout << endl;
-	cout << "Ââîä òèïà:";
+	cout << "Ð’Ð²Ð¾Ð´ Ñ‚Ð¸Ð¿Ð°:";
 	string get;
 	cin >> get;
 	cout << endl;

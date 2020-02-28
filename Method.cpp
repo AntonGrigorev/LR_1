@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include "Method.h"
 
 Method :: Method(string n, string t) {
@@ -8,8 +8,8 @@ Method :: Method(string n, string t) {
 Method :: ~Method() {
 }
 void Method :: print() {
-	cout << "Èìÿ ìåòîäà: " << name << endl;
-	cout << "Òèï ìåòîäà: " << type << endl;
+	cout << "Ð˜Ð¼Ñ Ð¼ÐµÑ‚Ð¾Ð´Ð°: " << name << endl;
+	cout << "Ð¢Ð¸Ð¿ Ð¼ÐµÑ‚Ð¾Ð´Ð°: " << type << endl;
 }
 string Method :: ret() {
 	return type;
